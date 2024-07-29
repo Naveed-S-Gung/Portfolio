@@ -18,46 +18,36 @@
     <header class="header">
         <nav class="navbar" id="navbar">
             <div class="logo">
-                <h2 class="logo-heading">Naveed Sohail Gung </h2>
+                <h2 class="logo-heading">Naveed Sohail Gung</h2>
             </div>
-            <div class="hamburger" id="hamburger">
-                <i class="fas fa-bars hamburger-icon"></i>
-                <i class="fas fa-times cross-icon"></i>
+            <div class="nav-icon-2" id="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-            <div class="menu-container">
+            <div class="menu-container" id="menu">
                 <div class="menu">
                     <ul class="menu-list">
                         <li class="menu-list-items">
-                            <a class="links" href="#home">
-                            Home
-                        </a>
-                    </li>
-                    <li class="menu-list-items">
-                        <a class="links" href="#portfolio">
-                            Portfolio
-                        </a>
-                    </li>
-                    <li class="menu-list-items">
-                        <a class="links" href="#about">
-                            About
-                        </a>
-                    </li>
-                    <li class="menu-list-items">
-                        <a class="links" href="#services">
-                            Services
-                        </a>
-                    </li>
-                    <li class="menu-list-items">
-                        <a class="links" href="#contact">
-                            Contact Me
-                        </a>
-                       </li>
-                  </ul>
-              </div>
+                            <a class="links" href="#home">Home</a>
+                        </li>
+                        <li class="menu-list-items">
+                            <a class="links" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="menu-list-items">
+                            <a class="links" href="#about">About</a>
+                        </li>
+                        <li class="menu-list-items">
+                            <a class="links" href="#services">Services</a>
+                        </li>
+                        <li class="menu-list-items">
+                            <a class="links" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
-    </header>
-
+   </header>
     <!-- Main hero banner -->
     <section id="home" class="hero">
         <div class="intro">
@@ -70,7 +60,7 @@
             </div>
             <div class="intro-buttons">
                 <button class="btn ghost-btn" id="hire-me-btn"><a href="#contact">Hire Me</a></button>
-                <button class="btn ghost-btn" id="get-resume-btn"><a href="C:\Users\navee\Downloads\portfolio\New.png" download>Get Resume</a>
+                <button class="btn ghost-btn" id="get-resume-btn"><a href="https://github.com/Naveed-S-Gung/Portfolio/blob/main/Downlaod/Naveed-Sohail-Gung_Rresume.pdf" download>Get Resume</a>
 </button>
             </div>
         </div>
@@ -93,20 +83,18 @@
                         </h3>
                         <p class="small-para blue-text">OP</p>
                     </div>
-                   
-                </div> 
-                 <div class="my-col">
-                        <div class="my-card port-card">
-                            <div class="image">
-                                <img src="./Images/WebDevelopment2.jfif" alt="Web Development Image">
-                            </div>
-                            <h3 class="greet-heading blue-text">
-                                Web Development
-                            </h3>
-                            <p class="small-para blue-text">Development</p>
-                      </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="./Images/WebDevelopment2.jfif" alt="Web Development Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Web Development
+                        </h3>
+                        <p class="small-para blue-text">Development</p>
                     </div>
-                
+                </div>
                 <div class="my-col">
                     <div class="my-card port-card">
                         <div class="image">
@@ -117,47 +105,41 @@
                         </h3>
                         <p class="small-para blue-text">Data Management System</p>
                     </div>
-                </div> 
-            
-            <!-- Add more projects as needed -->
-           
-              <div class="my-col">
-                <div class="my-card port-card">
-                    <div class="image">
-                        <img src="./Images/NetworkAdministration.jfif" alt="Network Administration">
-                    </div>
-                    <h3 class="greet-heading blue-text">
-                        Network Administration
-                    </h3>
-                    <p class="small-para blue-text">Administration</p>
                 </div>
-               
-             </div> &nbsp;
-             
-       
-             <div class="my-col">
-                <div class="my-card port-card">
-                    <div class="image">
-                        <img src="./Images/TechSupport.png" alt="TechSupport">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="./Images/NetworkAdministration.jfif" alt="Network Administration">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Network Administration
+                        </h3>
+                        <p class="small-para blue-text">Administration</p>
                     </div>
-                    <h3 class="greet-heading blue-text">
-                        Technical Support
-                    </h3>
-                    <p class="small-para blue-text">Tech Support</p>
-              </div>
-            </div> &nbsp; 
-            <div class="my-col">
-                <div class="my-card port-card">
-                    <div class="image">
-                        <img src="./Images/ProgrammingLanguage.png" alt="DB Management Image">
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="./Images/TechSupport.png" alt="TechSupport">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Technical Support
+                        </h3>
+                        <p class="small-para blue-text">Tech Support</p>
                     </div>
-                    <h3 class="greet-heading blue-text">
-                        Programmin Languages
-                    </h3>
-                    <p class="small-para blue-text">Programming Languages</p>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="./Images/ProgrammingLanguage.png" alt="DB Management Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Programming Languages
+                        </h3>
+                        <p class="small-para blue-text">Programming Languages</p>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
     </section>
 
@@ -331,12 +313,12 @@
                         </li>
                        
                         <li class="footer-list-items">
-                            <a class="footer-links" href="#">
-                                <i class="fab fa-behance"></i>
+                            <a class="footer-links" href="https://www.instagram.com/naveed._.gung/">
+                                <i class="fab fa-instagram"></i>
                             </a>
                         </li>
                         <li class="footer-list-items">
-                            <a class="footer-links" href="">
+                            <a class="footer-links" href="https://linkedin.com/in/naveed-sohail-gung-285645310">
                                 <i class="fab fa-linkedin"></i>
                             </a>
                         </li>
@@ -345,6 +327,7 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -35,7 +35,7 @@ body {
 	display: flex; 
 	align-items: center; 
 	justify-content: space-between; 
-	position: fixed; 
+	position: absolute; 
 	top: 0; 
 	width: 100%; 
 	background-image: linear-gradient(90deg, #74D7BB, #53C8B6, #35A99C); 
@@ -50,6 +50,11 @@ body {
 
 .logo .logo-heading { 
 	color: #fff; 
+	border-radius: 30px;
+    font-size: 1.5em; 
+    letter-spacing: -0.05em; 
+	white-space: nowrap;
+	
 } 
 
 .menu { 
@@ -76,12 +81,14 @@ body {
 	padding: 0.5rem 1rem; 
 } 
 
-@media screen and (min-width: 856px) and (max-width: 1024px) { 
-	.menu-list .menu-list-items { 
-		padding: 0.5rem 0.3rem; 
+@media screen and (min-width: 831px) and (max-width: 1024px) { 
+	.menu-list .menu-list-items { padding: 0.5rem 0.3rem; }
 
-	} 
-
+      .logo-heading {
+		font-size: 1.5em; 
+        letter-spacing: -0.05em; 
+		white-space: nowrap;
+	  }
 	.port-card {
 		display: grid;
     grid-template-columns: repeat(2, 1fr);
